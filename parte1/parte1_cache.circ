@@ -117,6 +117,8 @@
     <wire from="(620,230)" to="(620,250)"/>
     <wire from="(620,230)" to="(690,230)"/>
     <wire from="(740,210)" to="(840,210)"/>
+    <comp lib="9" loc="(930,160)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: xor2 = XOR feito com AND, OR e NOT (Componente 03)"/></comp>
+    <comp lib="9" loc="(930,180)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="S = x.Y' + x'.Y  -&gt;  S=1 quando as entradas sao DIFERENTES"/></comp>
   </circuit>
   <circuit name="Primo4">
     <a name="appearance" val="logisim_evolution"/>
@@ -215,6 +217,9 @@
     <wire from="(480,490)" to="(480,630)"/>
     <wire from="(480,490)" to="(510,490)"/>
     <wire from="(560,470)" to="(590,470)"/>
+    <comp lib="9" loc="(420,150)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: Primo4 = Detector de numero primo de 4 bits (Componente 17)"/></comp>
+    <comp lib="9" loc="(420,170)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="A B C D = numero de 4 bits (A = bit mais alto)"/></comp>
+    <comp lib="9" loc="(420,190)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="P = 1 se o numero e primo (2, 3, 5, 7, 11, 13)"/></comp>
   </circuit>
   <circuit name="MUX4_8">
     <a name="appearance" val="logisim_evolution"/>
@@ -406,6 +411,10 @@
     <wire from="(710,365)" to="(710,570)"/>
     <wire from="(710,365)" to="(730,365)"/>
     <wire from="(780,345)" to="(860,345)"/>
+    <comp lib="9" loc="(730,40)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: MUX4_8 = Multiplexador 4 entradas x 8 bits (Componente 02)"/></comp>
+    <comp lib="9" loc="(730,60)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="I0..I3 = as 4 entradas de 8 bits"/></comp>
+    <comp lib="9" loc="(730,80)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="S1 S0 = seletor: 00-&gt;I0, 01-&gt;I1, 10-&gt;I2, 11-&gt;I3"/></comp>
+    <comp lib="9" loc="(730,100)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="Y = saida (a entrada escolhida)"/></comp>
   </circuit>
   <circuit name="MUX4_1">
     <a name="appearance" val="logisim_evolution"/>
@@ -509,6 +518,10 @@
     <wire from="(570,210)" to="(570,240)"/>
     <wire from="(570,210)" to="(590,210)"/>
     <wire from="(640,200)" to="(700,200)"/>
+    <comp lib="9" loc="(790,90)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: MUX4_1 = Multiplexador 4 entradas x 1 bit"/></comp>
+    <comp lib="9" loc="(790,110)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="I0..I3 = entradas"/></comp>
+    <comp lib="9" loc="(790,130)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="S1 S0 = seletor"/></comp>
+    <comp lib="9" loc="(790,150)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="Y = entrada escolhida"/></comp>
   </circuit>
   <circuit name="FF_D">
     <a name="appearance" val="logisim_evolution"/>
@@ -629,6 +642,13 @@
     <wire from="(90,180)" to="(120,180)"/>
     <wire from="(90,40)" to="(130,40)"/>
     <wire from="(90,40)" to="(90,180)"/>
+    <comp lib="9" loc="(360,230)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: FF_D = Flip-flop D (Componente 01): guarda 1 bit"/></comp>
+    <comp lib="9" loc="(360,250)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="set = forca Q=1"/></comp>
+    <comp lib="9" loc="(360,270)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="reset = forca Q=0 (zera)"/></comp>
+    <comp lib="9" loc="(360,290)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="clock = relogio: grava 'data' na subida (0-&gt;1)"/></comp>
+    <comp lib="9" loc="(360,310)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="data = bit a ser guardado"/></comp>
+    <comp lib="9" loc="(360,330)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="Q = valor guardado"/></comp>
+    <comp lib="9" loc="(360,350)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="Qn = Q invertido"/></comp>
   </circuit>
   <circuit name="DEC_7SEG_S">
     <a name="appearance" val="logisim_evolution"/>
@@ -865,6 +885,9 @@
     <wire from="(900,1330)" to="(980,1330)"/>
     <wire from="(900,1400)" to="(980,1400)"/>
     <wire from="(900,980)" to="(980,980)"/>
+    <comp lib="9" loc="(820,40)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: DEC_7SEG = Decodificador de 7 segmentos (Componente 16)"/></comp>
+    <comp lib="9" loc="(820,60)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="A B C D = numero de 4 bits (A = bit mais alto)"/></comp>
+    <comp lib="9" loc="(820,80)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="seg_a..seg_g = segmentos acesos no display"/></comp>
   </circuit>
   <circuit name="SOMADOR8">
     <a name="appearance" val="logisim_evolution"/>
@@ -1507,6 +1530,11 @@
     <wire from="(980,5800)" to="(1030,5800)"/>
     <wire from="(990,5000)" to="(990,5810)"/>
     <wire from="(990,5810)" to="(1030,5810)"/>
+    <comp lib="9" loc="(500,90)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: SOMADOR8 = Somador de 8 bits (Componente 08)"/></comp>
+    <comp lib="9" loc="(500,110)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="A, B = numeros de 8 bits"/></comp>
+    <comp lib="9" loc="(500,130)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="Cin = vai-um de entrada"/></comp>
+    <comp lib="9" loc="(500,150)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="S = A + B + Cin"/></comp>
+    <comp lib="9" loc="(500,170)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="Cout = vai-um de saida"/></comp>
   </circuit>
   <circuit name="SEL_ENDERECO">
     <a name="appearance" val="logisim_evolution"/>
@@ -1732,6 +1760,13 @@
     <wire from="(980,60)" to="(980,2960)"/>
     <wire from="(990,90)" to="(1180,90)"/>
     <wire from="(990,90)" to="(990,3110)"/>
+    <comp lib="9" loc="(370,80)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: SEL_ENDERECO = Selecao e divisao do endereco"/></comp>
+    <comp lib="9" loc="(370,100)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="ADDR = endereco"/></comp>
+    <comp lib="9" loc="(370,120)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="MODO = 0 normal, 1 primos"/></comp>
+    <comp lib="9" loc="(370,140)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="V2..V0 = contador v"/></comp>
+    <comp lib="9" loc="(370,160)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="T2 T1 T0 = ROTULO"/></comp>
+    <comp lib="9" loc="(370,180)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="I1 I0 = INDICE (linha)"/></comp>
+    <comp lib="9" loc="(370,200)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="OF = DESLOCAMENTO (byte)"/></comp>
   </circuit>
   <circuit name="COMPARADOR_ROTULO">
     <a name="appearance" val="logisim_evolution"/>
@@ -1840,6 +1875,13 @@
     <wire from="(970,960)" to="(970,1240)"/>
     <wire from="(980,420)" to="(980,1250)"/>
     <wire from="(990,720)" to="(990,1260)"/>
+    <comp lib="9" loc="(480,125)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: COMPARADOR_ROTULO = Compara o rotulo do"/></comp>
+    <comp lib="9" loc="(480,145)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="endereco com o guardado"/></comp>
+    <comp lib="9" loc="(480,165)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="T2..T0 = rotulo do endereco"/></comp>
+    <comp lib="9" loc="(480,185)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="SS2..SS0 = rotulo guardado na linha"/></comp>
+    <comp lib="9" loc="(480,205)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="VSEL = bit de validade da linha"/></comp>
+    <comp lib="9" loc="(480,225)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="IGUAIS = 1 se os rotulos sao iguais"/></comp>
+    <comp lib="9" loc="(480,245)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="ACERTO = IGUAIS . VSEL"/></comp>
   </circuit>
   <circuit name="CONTROLE_ACESSO">
     <a name="appearance" val="logisim_evolution"/>
@@ -2016,6 +2058,11 @@
     <wire from="(890,320)" to="(890,2450)"/>
     <wire from="(900,1080)" to="(900,2460)"/>
     <wire from="(910,1530)" to="(910,2470)"/>
+    <comp lib="9" loc="(260,80)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: CONTROLE_ACESSO = Decide o que o pulso de relogio faz"/></comp>
+    <comp lib="9" loc="(260,100)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="EN = MODO' + PRIMO (o acesso conta)"/></comp>
+    <comp lib="9" loc="(260,120)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="MISS = falta (NOT ACERTO)"/></comp>
+    <comp lib="9" loc="(260,140)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="HIT = ACERTO . EN -&gt; soma 1 no contador"/></comp>
+    <comp lib="9" loc="(260,160)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="WE0..WE3 = grava a linha 0..3 numa falta (WR = falta . EN)"/></comp>
   </circuit>
   <circuit name="VALIDADE">
     <a name="appearance" val="logisim_evolution"/>
@@ -2205,6 +2252,13 @@
     <wire from="(860,1270)" to="(860,2090)"/>
     <wire from="(870,1600)" to="(870,2100)"/>
     <wire from="(880,1930)" to="(880,2110)"/>
+    <comp lib="9" loc="(290,80)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: VALIDADE = Bits de validade das 4"/></comp>
+    <comp lib="9" loc="(290,100)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="linhas (4 flip-flops D)"/></comp>
+    <comp lib="9" loc="(290,120)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="WE0..WE3 = carregar a linha k"/></comp>
+    <comp lib="9" loc="(290,140)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="CLR = zera todos (cache vazia)"/></comp>
+    <comp lib="9" loc="(290,160)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="I1 I0 = indice"/></comp>
+    <comp lib="9" loc="(290,180)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="VSEL = validade da linha atual"/></comp>
+    <comp lib="9" loc="(290,200)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="VL0..VL3 = validade de cada linha"/></comp>
   </circuit>
   <circuit name="ROTULOS">
     <a name="appearance" val="logisim_evolution"/>
@@ -2518,6 +2572,12 @@
     <wire from="(970,2370)" to="(970,2510)"/>
     <wire from="(980,1020)" to="(980,2520)"/>
     <wire from="(990,1540)" to="(990,2530)"/>
+    <comp lib="9" loc="(440,80)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: ROTULOS = Rotulos guardados (4 registradores de 3 bits)"/></comp>
+    <comp lib="9" loc="(440,100)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="T2..T0 = rotulo novo"/></comp>
+    <comp lib="9" loc="(440,120)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="WE0..WE3 = gravar na linha k"/></comp>
+    <comp lib="9" loc="(440,140)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="I1 I0 = indice"/></comp>
+    <comp lib="9" loc="(440,160)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="SS2..SS0 = rotulo da linha atual"/></comp>
+    <comp lib="9" loc="(440,180)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="TAG0..TAG3 = rotulo de cada linha"/></comp>
   </circuit>
   <circuit name="DADOS_CACHE">
     <a name="appearance" val="logisim_evolution"/>
@@ -2846,6 +2906,12 @@
     <wire from="(980,2385)" to="(980,3635)"/>
     <wire from="(990,60)" to="(1150,60)"/>
     <wire from="(990,60)" to="(990,2985)"/>
+    <comp lib="9" loc="(380,80)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: DADOS_CACHE = Memoria principal + 4 linhas de 2 bytes"/></comp>
+    <comp lib="9" loc="(380,100)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="T2..T0, I1 I0 = bloco"/></comp>
+    <comp lib="9" loc="(380,120)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="OF = qual byte do bloco"/></comp>
+    <comp lib="9" loc="(380,140)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="WE0..WE3 = carregar linha"/></comp>
+    <comp lib="9" loc="(380,160)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="MEM_PRINCIPAL = ROM com 32 blocos de 2 bytes"/></comp>
+    <comp lib="9" loc="(380,180)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="DADO = byte lido da cache"/></comp>
   </circuit>
   <circuit name="CONTADOR_4">
     <a name="appearance" val="logisim_evolution"/>
@@ -3166,6 +3232,10 @@
     <wire from="(970,1200)" to="(970,4380)"/>
     <wire from="(980,3190)" to="(980,4390)"/>
     <wire from="(990,3340)" to="(990,4400)"/>
+    <comp lib="9" loc="(290,80)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: CONTADOR_4 = Contador de acertos de 4 bits (Componente 13)"/></comp>
+    <comp lib="9" loc="(290,100)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="HIT = 1 soma 1 no pulso"/></comp>
+    <comp lib="9" loc="(290,120)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="CLR = zera"/></comp>
+    <comp lib="9" loc="(290,140)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="C3..C0 = contagem"/></comp>
   </circuit>
   <circuit name="CONTADOR_3">
     <a name="appearance" val="logisim_evolution"/>
@@ -3396,6 +3466,11 @@
     <wire from="(970,2420)" to="(970,3240)"/>
     <wire from="(980,2570)" to="(980,3250)"/>
     <wire from="(990,2720)" to="(990,3260)"/>
+    <comp lib="9" loc="(600,80)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: CONTADOR_3 = Contador v de 3 bits"/></comp>
+    <comp lib="9" loc="(600,100)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="(Componente 13)"/></comp>
+    <comp lib="9" loc="(600,120)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="EN = 1 avanca no pulso"/></comp>
+    <comp lib="9" loc="(600,140)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="CLR = zera"/></comp>
+    <comp lib="9" loc="(600,160)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="V2..V0 = valor v (0 a 7)"/></comp>
   </circuit>
   <circuit name="CACHE_PARTE1">
     <a name="appearance" val="logisim_evolution"/>
@@ -3902,5 +3977,18 @@
     <wire from="(880,3530)" to="(880,3560)"/>
     <wire from="(880,3620)" to="(880,3650)"/>
     <wire from="(890,3520)" to="(890,3560)"/>
+    <comp lib="9" loc="(520,115)" name="Text"><a name="color" val="#0000a0"/><a name="font" val="SansSerif bold 13"/><a name="halign" val="left"/><a name="text" val="LEGENDA: CACHE_PARTE1 = Cache de mapeamento direto, 4 linhas x 2 bytes"/></comp>
+    <comp lib="9" loc="(520,135)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="ADDR = endereco de 6 bits: ROTULO A5A4A3, INDICE A2A1, DESLOCAMENTO A0"/></comp>
+    <comp lib="9" loc="(520,155)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="DESLOC = valor somado ao endereco (endereco efetivo = ADDR + DESLOC)"/></comp>
+    <comp lib="9" loc="(520,175)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="CLK = relogio: o pulso conclui o acesso"/></comp>
+    <comp lib="9" loc="(520,195)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="CLR = zera a cache (invalida tudo)"/></comp>
+    <comp lib="9" loc="(520,215)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="MODO = 0 usa ADDR, 1 teste dos primos (endereco = v &lt;&lt; 3)"/></comp>
+    <comp lib="9" loc="(520,235)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="ACERTO = 1 se o dado ja estava na cache (olhar ANTES do pulso)"/></comp>
+    <comp lib="9" loc="(520,255)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="DADO = byte lido"/></comp>
+    <comp lib="9" loc="(520,275)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="ACERTOS_C3..C0 = contador de acertos (display)"/></comp>
+    <comp lib="9" loc="(520,295)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="VAL0..VAL3 = bit de validade de cada linha"/></comp>
+    <comp lib="9" loc="(520,315)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="ROT0..ROT3 = rotulo guardado"/></comp>
+    <comp lib="9" loc="(520,335)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="V2 V1 V0 = valor v do contador"/></comp>
+    <comp lib="9" loc="(520,355)" name="Text"><a name="color" val="#0000a0"/><a name="halign" val="left"/><a name="text" val="PRIMO = 1 se v e primo"/></comp>
   </circuit>
 </project>

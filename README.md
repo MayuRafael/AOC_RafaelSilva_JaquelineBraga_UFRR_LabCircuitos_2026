@@ -1,11 +1,13 @@
 # Laboratório de Circuitos – Projeto Integrador (AOC 2026)
 
-Universidade Federal de Roraima (UFRR) · Disciplina: Arquitetura e Organização de Computadores · Prof. Herbert Oliveira Rocha
+Universidade Federal de Roraima (UFRR) · Curso de Ciência da Computação
+
+Disciplina: DCC301 – Arquitetura e Organização de Computadores · Semestre: 2026.2 · Prof. Herbert Oliveira Rocha
 
 | Integrante | Matrícula |
 |---|---|
-| Rafael Silva | _preencher_ |
-| Jaqueline Braga | _preencher_ |
+| Rafael da Silva | 2021022827 |
+| Jaqueline Braga Meneses | 2023010478 |
 
 Simulador: **Logisim-Evolution 5.0.0**. Para abrir um circuito, use *Arquivo → Abrir* e escolha o `.circ`; o circuito principal de cada arquivo já abre como "main".
 
@@ -134,7 +136,10 @@ A pasta `componentes/` guarda também as versões individuais de cada componente
 
 ## Divisão do trabalho
 
-_preencher: quem fez cada parte._
+| Integrante | Responsabilidade |
+|---|---|
+| Jaqueline Braga Meneses | Parte I – subsistema de memória e cache (`parte1/`) |
+| Rafael da Silva | Parte II – unidade de controle cabeada e microprogramada (`parte2/`) |
 
 ## Declaração de uso de Inteligência Artificial
 
