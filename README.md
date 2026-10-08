@@ -143,4 +143,4 @@ A pasta `componentes/` guarda também as versões individuais de cada componente
 
 ## Declaração de uso de Inteligência Artificial
 
-Usamos o assistente Claude (Anthropic) como apoio. Ele ajudou na revisão e organização dos circuitos no Logisim (por exemplo, a conversão de túneis para fios e a correção de ligações), na geração e execução de vetores de teste, no preenchimento da planilha e na redação e organização do relatório e deste README. Todos os circuitos e resultados foram conferidos e testados pela dupla no Logisim-Evolution, e cada integrante é capaz de explicar o funcionamento dos circuitos na arguição.
+Usamos o assistente Claude (Anthropic) como apoio. Ele ajudou na revisão e organização dos circuitos no Logisim (por exemplo, a conversão de túneis para fios e a correção de ligações), na geração e execução de vetores de teste, no preenchimento da planilha e na redação e organização do relatório e deste README. Todos os circuitos e resultados foram conferidos e testados pela dupla no Logisim-Evolution.
