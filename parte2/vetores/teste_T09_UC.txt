@@ -1,0 +1,17 @@
+<set> <seq> CLK R B Q2 Q1 Q0 PCWrite PCWriteCond PCSource MemRead IRWrite RegWrite ALUSrcA ALUSrcB1 ALUSrcB0 ALUOp1 ALUOp0
+1 1 0 1 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0
+1 2 0 0 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0
+1 3 1 0 0 <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC>
+1 4 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0
+1 5 1 0 0 <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC>
+1 6 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 0
+1 7 1 0 0 <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC>
+1 8 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 1 0
+1 9 1 0 0 <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC>
+1 10 0 0 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0
+1 11 1 0 1 <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC>
+1 12 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0
+1 13 1 0 1 <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC>
+1 14 0 0 1 1 0 0 0 1 1 0 0 0 1 0 0 0 1
+1 15 1 0 1 <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC> <DC>
+1 16 0 0 1 0 0 0 1 0 0 1 1 0 0 0 1 0 0
